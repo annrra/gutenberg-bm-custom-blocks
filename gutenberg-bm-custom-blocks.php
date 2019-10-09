@@ -16,3 +16,4 @@
 defined( 'ABSPATH' ) || exit;
 
 include 'bm-tabs/index.php';
+include 'bm-accordion/index.php';

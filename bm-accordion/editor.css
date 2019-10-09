@@ -1,0 +1,30 @@
+/**
+ * ----------------------------------------------------------------------------
+ * #.# Editor CSS
+ *
+ * BLOCK: BB Accordion
+ * ----------------------------------------------------------------------------
+ */
+
+.bm-accordion-heading {
+	color: #fff;
+	padding: 6px 15px;
+    line-height: 24px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: text;
+}
+
+.bm-accordion-body {
+	padding: 10px 15px;
+}
+
+.bm-accordion-title:before {
+	content: "\f0d7";
+	font-family: "FontAwesome";
+	font-size: 74%;
+    color: #fff;
+    position: relative;
+    margin-right: 10px;
+}
