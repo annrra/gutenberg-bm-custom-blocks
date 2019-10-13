@@ -1,6 +1,5 @@
-( function( blocks, components, i18n, element ) {
-    
-    var el = element.createElement;
+( function( blocks, editor, components, i18n, element ) {
+	var el = element.createElement;
     var __ = i18n.__;
     var Editable = blocks.Editable;
     var AlignmentToolbar = wp.editor.AlignmentToolbar;
@@ -24,7 +23,7 @@
         title: i18n.__( 'BM Tabs' ),
         description: __('Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
         icon: iconEl,        
-        category: 'common',
+        category: 'bm-blocks',
         
         attributes: {
             tab1: {
@@ -261,9 +260,11 @@
             );
         }
     } );
-})(
-  window.wp.blocks,
-  window.wp.components,
-  window.wp.i18n,
-  window.wp.element,
+	
+} )(
+	window.wp.blocks,
+	window.wp.editor,
+	window.wp.components,
+	window.wp.i18n,
+	window.wp.element,
 );
